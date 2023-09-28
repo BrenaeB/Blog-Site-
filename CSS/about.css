@@ -1,0 +1,87 @@
+.background img {
+    background-image: url(../firstimages/about.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    
+}
+
+h1{
+    text-align: center;
+    font-size: 6em;
+    font-family: font-family: 'Alex Brush', cursive;
+    font-family: 'Courgette', cursive;
+    font-family: 'Dancing Script', cursive;
+    color: 
+}
+
+
+
+body {
+    background-image: url(../firstimages/about.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.navcontainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); 
+    gap: 10px; 
+    border-radius: 10px;
+    background-color: pink;
+    padding: 10px;
+    border: 8px solid rgb(216, 112, 147);
+    font-family: "Dancing Script", cursive;
+  
+  }
+  
+  .navigation {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-auto-flow: column; 
+    gap: 10px; 
+  }
+
+
+
+
+
+
+
+.description{
+    display: flex;
+    justify-content: center;
+    position: center;
+    margin: 300px;
+    top: 10px;
+    align-items: flex-start;
+    width: 800px;
+    height: 500px;
+    opacity: 0.8;
+    background-color: lightpink;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    font-family: font-family: 'Alex Brush', cursive;
+    font-family: 'Courgette', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2em;
+}
+
+@media (max-width: 600) {
+    p {
+      font-size: 1.25rem;
+    }
+  
+  }
+  
+  
+  @media (min-width: 800) {
+    p {
+      font-size: 1.5rem;
+      line-height: 1.5;
+    }
+  
+  }

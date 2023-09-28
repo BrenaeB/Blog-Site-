@@ -1,0 +1,107 @@
+@import url("homepage.css");
+@import url("404page.css");
+@import url("about.css");
+
+h1 {
+    font-size: 65px;
+    font-style: italic;
+    justify-content: center;
+    text-align: center;
+    position: fixed;
+    margin: 10%;
+    bottom: auto;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffb6c1;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    font-family: "Dancing Script", cursive;
+}
+
+.homebutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+body {
+    background-image: url(../firstimages/welcome.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.background img {
+    background-image: url(../firstimages/welcome.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.background {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+/* styles.css */
+.navcontainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Automatically fit columns, with a minimum width of 100px */
+    gap: 10px; /* Gap between columns */
+    background-color: pink;
+    padding: 10px;
+    border: 8px solid rgb(216, 112, 147);
+    font-family: "Dancing Script", cursive;
+}
+
+.navigation {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-auto-flow: column; /* Arrange items in a column */
+    gap: 10px; /* Gap between items */
+}
+
+.navigation li {
+    padding: 5px 10px;
+    background-color: #af4ca3;
+}
+
+.navigation li a {
+    color: pink;
+    text-decoration: none;
+}
+
+footer {
+    background-color: pink;
+    color: #af4ca3;
+    padding: 50px;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+
+@media (max-width: 600) {
+  p {
+    font-size: 1.25rem;
+  }
+
+}
+
+
+@media (min-width: 800) {
+  p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+
+}
